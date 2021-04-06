@@ -118,3 +118,31 @@ input[type="submit"]:hover {
   margin-top: 20px;
   font-size: 16px;
 }
+
+.retornar {
+  width: 200px;
+  height: 30px;
+  background-color: pink;
+  text-align: center;
+  border-radius: 20px;
+  margin-top: 15px;
+  padding-top: 5px;
+  border-bottom: #323232 solid 2px;
+  font-style: bold;
+}
+
+.retornar a {
+  font-family: "Ubuntu", sans-serif;
+  color: #323232;
+  text-decoration: none;
+}
+
+.retornar:hover {
+  background-color: rgb(218, 165, 174);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+footer {
+  height: 80px;
+}
